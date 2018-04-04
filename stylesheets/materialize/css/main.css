@@ -1,0 +1,103 @@
+.personal-info {
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    background: white
+}
+svg {
+    position: absolute;
+    z-index: -1;
+}
+.circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.circle-inactive {
+    border: 1px solid #40a79a;
+}
+.circle-active {
+    background: #40a79a;
+}
+.remove-icon {
+    position: absolute;
+    width: 3rem;
+    font-size: 2rem !important;
+    transition: color .2s;
+    padding: 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/****************************/
+.cv-preview {
+    /*min-height: 950px;*/
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    background: white;
+    padding: 0px !important;
+}
+.cv-preview .left {
+    min-height: 950px;
+    background: #425370;
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.cv-preview .left .row {
+    margin-bottom: 0px;
+}
+.cv-preview .left .personal-img {
+    margin: 1rem 3rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 7px solid #ccc;
+    border-style: double;
+}
+.cv-preview .left .name {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.cv-preview .left .position {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.cv-preview .right {
+    padding: 2rem !important;
+    text-align: justify;
+    color: grey;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.cv-preview .right .subject {
+    font-size: 1.2rem;
+}
+.cv-preview .right .underline {
+    border-bottom: 1px solid grey;
+    margin-top: 1.2rem;
+}
+.skills .skills-subject {
+    /*padding: 0 1.2rem;*/
+    font-size: 1.1rem;
+}
+.skills ul {
+    padding: 0 2.5rem !important;
+}
+.skills ul > li {
+    list-style-type: disc;
+}
+.cv-preview .right ul {
+    padding: 0 1.2rem !important;
+}
+.cv-preview .right ul > li {
+    list-style-type: disc;
+}
+.cv-preview .social-info {
+    margin: 1rem 0rem;
+}
+.cv-preview .main-info {
+    margin: 0 2rem;
+}
